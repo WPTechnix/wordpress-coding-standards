@@ -1,0 +1,36 @@
+{
+    "name": "wptechnix/wordpress-coding-standards",
+    "description": "A WordPress PHPCS standard based on WPTechnix and WPCS, compatible with PSR-12 for modern, secure, and maintainable PHP code.",
+    "type": "phpcodesniffer-standard",
+    "keywords": [
+        "phpcs",
+        "coding-standard",
+        "wordpress",
+        "wpcs",
+        "psr-12",
+        "wptechnix",
+        "php",
+        "code-quality"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WPTechnix",
+            "email": "developers@wptechnix.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "wptechnix/coding-standards": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "support": {
+        "issues": "https://github.com/wptechnix/wordpress-coding-standards/issues",
+        "source": "https://github.com/wptechnix/wordpress-coding-standards"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

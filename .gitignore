@@ -1,0 +1,26 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (for commitlint)
+node_modules/
+
+# Note: package-lock.json is intentionally tracked for reproducible builds
+# .npmrc enforces engine-strict for team consistency
+
+# Logs
+*.log
+
+# Claude settings
+/.claude/
