@@ -48,15 +48,21 @@ Install this package as a development dependency using [Composer](https://getcom
 composer require --dev wptechnix/wordpress-coding-standards
 ```
 
-### Automatic Installation with Dealerdirect
+### Optional: Automatic Installation with Dealerdirect
 
-This package uses [dealerdirect/phpcodesniffer-composer-installer](https://github.com/Dealerdirect/phpcodesniffer-composer-installer) to automatically register the coding standard with PHP_CodeSniffer. This means:
+For automatic registration with PHP_CodeSniffer, you can optionally install [dealerdirect/phpcodesniffer-composer-installer](https://github.com/Dealerdirect/phpcodesniffer-composer-installer):
 
--   The standard is automatically installed to PHP_CodeSniffer's standards directory upon Composer install.
--   No manual path configuration is required.
--   The standard becomes immediately available for use in your `phpcs.xml` configuration.
+```bash
+composer require --dev dealerdirect/phpcodesniffer-composer-installer
+```
 
-If you're using a custom PHP_CodeSniffer installation, ensure the `dealerdirect/phpcodesniffer-composer-installer` plugin is enabled. This package's `composer.json` already allows this plugin automatically.
+This plugin will:
+
+-   Automatically register the standard with PHP_CodeSniffer upon Composer install.
+-   Eliminate the need for manual path configuration.
+-   Make the standard immediately available for use in your `phpcs.xml` configuration.
+
+**Note:** This is optional. If you prefer manual configuration or have a custom PHP_CodeSniffer setup, you can skip this step and configure the path manually in your `phpcs.xml` file.
 
 ## Usage
 
