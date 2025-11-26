@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "wptechnix/coding-standards": "^1.0"
+        "wptechnix/coding-standards": "^2.0"
     },
     "suggest": {
         "dealerdirect/phpcodesniffer-composer-installer": "Automatically register the standard with PHP_CodeSniffer upon Composer install"
