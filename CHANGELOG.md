@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/WPTechnix/wordpress-coding-standards/compare/v1.0.0...v2.0.0) (2025-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** upgrade wptechnix/coding-standards to ^2.0 ([#3](https://github.com/WPTechnix/wordpress-coding-standards/issues/3))
+
+### Features
+
+* **deps:** upgrade wptechnix/coding-standards to ^2.0 ([#3](https://github.com/WPTechnix/wordpress-coding-standards/issues/3)) ([d11e3d6](https://github.com/WPTechnix/wordpress-coding-standards/commit/d11e3d667f2fb8dde7a19a9d8d52edb466095396))
+
 ## 1.0.0 (2025-11-20)
 
 
