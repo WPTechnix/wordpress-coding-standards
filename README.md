@@ -45,7 +45,7 @@ This ruleset is designed to help you write modern, secure, and high-quality Word
 Install this package as a development dependency using [Composer](https://getcomposer.org).
 
 ```bash
-composer require --dev wptechnix/wordpress-coding-standards
+composer require --dev "wptechnix/wordpress-coding-standards:^2.0"
 ```
 
 ### Optional: Automatic Installation with Dealerdirect
